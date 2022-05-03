@@ -15,6 +15,11 @@ npm i electron -g
 ``` bash
 npx create-electron-app your-app-name
 ```
+- If you want to run some different web app, make changes here
+```bash
+mainWindow.setTitle('title of the desktop app');
+mainWindow.loadURL('http://www.yourwebpage.com');
+```
 - Run the created app by writing the following code
 ``` bash
 npm start
